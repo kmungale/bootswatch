@@ -16,6 +16,8 @@
     "postcss": "postcss --no-map --use autoprefixer --config build/js/postcss.js --replace dist/*/bootstrap.css"
   },
   "dependencies": {
+    "jquery": ">=1.9.1",
+    "popper.js": "^1.14.0",
     "bootstrap": "^4.1.0"
   },
   "devDependencies": {
